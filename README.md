@@ -1,28 +1,46 @@
-# Create T3 App
+# IGEPSA
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+IGEPSA (Inspection Générale de Enseignement Primaire et Secondaire et de
+l'Alphabétisation) is a public institution in Republic of Congo responsible for
+the inspection and supervision of primary and secondary education as well as
+literacy programs.
 
-## What's next? How do I make an app with this?
+## About the Application
+This application is designed to facilitate the management and administration of
+the IGEPSA structure.
+It'll provide tools that automate various administrative tasks, streamline
+communication, and enhance the overall efficiency of the institution.
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+## Why This Application?
+While I am working in IGEPSA, I identified several repetitive tasks and
+processes that could be automated to save time and reduce errors. This
+application aims to address those needs.
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+I'll add featuress module by module, starting with the ones that I find most
+useful for my daily tasks at IGEPSA.
 
+## Stack
 - [Next.js](https://nextjs.org)
-- [Prisma](https://prisma.io)
 - [Drizzle](https://orm.drizzle.team)
 - [Tailwind CSS](https://tailwindcss.com)
 - [tRPC](https://trpc.io)
+- [TypeScript](https://www.typescriptlang.org)
 
-## Learn More
+## Getting Started
+To get started with the IGEPSA application afer cloning the repository,
+follow these steps:
+```bash
+# Navigate to the project directory
+cd igepsa
+# Install dependencies
+pnpm install
+# Set up the database
+pnpm db:push
+# Start the development server
+pnpm dev
+# Open your browser and navigate to http://localhost:3000
+```
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
-
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
-
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
-
-## How do I deploy this?
-
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+## Contributing
+Contributions are welcome! If you have suggestions for improvements or new
+features, feel free to open an issue or submit a pull request.
